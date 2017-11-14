@@ -1,0 +1,8 @@
+# Untracked files
+
+.DS_Store
+.idea/
+
+X_train.txt
+X_test.txt
+Y_train.txt
