@@ -2,6 +2,7 @@
 
 .DS_Store
 .idea/
+data/
 
 X_train.txt
 X_test.txt
