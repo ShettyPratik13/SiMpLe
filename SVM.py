@@ -11,7 +11,7 @@ X = np.genfromtxt('data/X_train.txt', delimiter=None)
 Y = np.genfromtxt('data/Y_train.txt', delimiter=None)
 X,Y = ml.shuffleData(X,Y)
 Xtr, Xva, Ytr, Yva = ml.splitData(X, Y)
-Xt, Yt = Xtr[:5000], Ytr[:5000] #sampled training data
+Xt, Yt = Xtr[:50], Ytr[:50] #sampled training data
 clf = svm.SVC(kernel='linear', C = 1.0, probability = True)
 clf.fit(Xt, Yt)
 Yvahat = clf.decision_function(Xva[:100])

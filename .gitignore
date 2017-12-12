@@ -4,7 +4,7 @@
 .idea/
 data/
 
-X_train.txt
-X_test.txt
-Y_train.txt
 Y_predicted.csv
+Y_predicted.txt
+
+
